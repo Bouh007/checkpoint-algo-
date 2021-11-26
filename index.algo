@@ -1,0 +1,23 @@
+ALGORITHM algorithm_name
+VAR
+    str:STRING
+    c:CHAR
+    nbSpace:INTEGER
+    nbword:INTEGER
+BEGIN
+    nbSpace:=0
+    // i am ahmed.
+
+    REPEAT
+    Write ('give a caracter')
+    Read(c)
+    IF (c:=" ") THEN
+        nbSpace:=nbSpace+1
+    END_IF
+    UNTIL (c=".")
+    nbword:=nbSpace+1
+
+ 
+ 
+ 
+END
